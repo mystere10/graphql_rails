@@ -9,7 +9,7 @@ module Types
     field :post_count, Integer, null: true
 
     def post_count
-      object.post.size
+      object.posts.size
     end
   end
 end
