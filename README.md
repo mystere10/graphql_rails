@@ -1,24 +1,21 @@
-# README
+# Simple project in Ruby on rails and graphql
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This small project combines both react for the frontend and graphql backend.
 
 * Ruby version
+> ruby '2.6.3'
+> Ruby installation [link](https://gorails.com/setup/osx/10.15-catalina)
 
-* System dependencies
+* Rails version
+> gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+> For rails installation look this [link](https://guides.rubyonrails.org/v5.0/getting_started.html)
 
-* Configuration
+> Steps to use this small app
 
-* Database creation
+  - run bundle install to install all dependecies
+  - rails db:create
+  - rails db:migrate
 
-* Database initialization
+> For the frontend i used create-react-app which is in the same project directory as the backend
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repo was created by the help of [web-crunch](https://www.youtube.com/channel/UCzePijHDYnVHIXW6HYTL4dg)
